@@ -1,5 +1,4 @@
 <?php
-
 namespace Webit\Bundle\BcMathBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
