@@ -1,6 +1,6 @@
 {
     "name": "webit/bcmath-bundle",
-    "description": "Symfony 2 integretion for BcMath wrapper",
+    "description": "Symfony 2 integration for BcMath wrapper",
     "type" : "bundle",
     "license" : "MIT",
     "keywords" : ["bcmath", "big numeric"],
@@ -8,11 +8,10 @@
     	"name" : "Daniel Bojdo", "email" : "daniel.bojdo@web-it.eu"
     }],
     "autoload": {
-        "psr-0": { "Webit\\Bundle\\BcMathBundle": "" }
+        "psr-4": { "Webit\\Bundle\\BcMathBundle\\": "" }
     },
     "require": {
         "php": ">=5.3.3",
-        "webit/bcmath" : "dev-master"
-    },
-    "target-dir" : "Webit/Bundle/BcMathBundle"
+        "webit/bcmath" : "~1.0"
+    }
 }
