@@ -22,14 +22,7 @@ class WebitBcMathExtension extends Extension
     {
         $configuration = new Configuration();
         $config = $this->processConfiguration($configuration, $configs);
-
-        $configuration = new Configuration();
-        $config = $this->processConfiguration($configuration, $configs);
         
-        foreach($config as $key=>$value) {
-        	$container->setParameter($this->getAlias(). '.'.$key, $value);
-        }
-        
-        BcMathNumber::setDefaultScale($container->getParameter($this->getAlias().'.scale'));
+        BcMathNumber::setDefaultScale($config['scale']);
     }
 }
