@@ -8,7 +8,7 @@ Composer: add the **webit/bcmath-bundle** into **composer.json**
 {
     "require": {
         "php": ">=5.3.2",
-        "webit/bcmath-bundle": "~1.0"
+        "webit/bcmath-bundle": "~1.1"
     }
 }
 
