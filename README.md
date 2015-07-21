@@ -23,4 +23,4 @@ webit_bc_math:
 ```
 
 Documentation of **BcMath Wrapper**: 
-[README.md](https://github.com/dbojdo/bcmath-bundle/blob/master/README.md)
+[README.md](https://github.com/dbojdo/bcmath/blob/master/README.md)
