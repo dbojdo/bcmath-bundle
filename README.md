@@ -11,6 +11,7 @@ Composer: add the **webit/bcmath-bundle** into **composer.json**
         "webit/bcmath-bundle": "~1.1"
     }
 }
+```
 
 ## Usage
 
